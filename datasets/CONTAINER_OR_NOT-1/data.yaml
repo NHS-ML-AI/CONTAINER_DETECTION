@@ -1,0 +1,12 @@
+names:
+- CONTAINER
+nc: 1
+roboflow:
+  license: Private
+  project: container_or_not
+  url: https://app.roboflow.com/container-rnvq9/container_or_not/1
+  version: 1
+  workspace: container-rnvq9
+test: ../test/images
+train: CONTAINER_OR_NOT-1/train/images
+val: CONTAINER_OR_NOT-1/valid/images
